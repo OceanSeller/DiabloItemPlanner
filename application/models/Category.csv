@@ -1,0 +1,16 @@
+﻿id,name,category,imgPath
+w0,weap_name1,Weapon,blah
+w1,weap_name2,Weapon,blah
+w2,weap_name3,Weapon,blah
+h0,helmet_name1,Helmet,blah
+h1,helmet_name2,Helmet,blah
+h2,helmet_name3,Helmet,blah
+a0,armor_name1,Armor,blah
+a1,armor_name2,Armor,blah
+a2,armor_name3,Armor,blah
+b0,boots_name1,Boots,blah
+b1,boots_name2,Boots,blah
+b2,boots_name3,Boots,blah
+s0,set_name1,Set,blah
+s1,set_name2,Set,blah
+s2,set_name3,Set,blah
