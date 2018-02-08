@@ -3,6 +3,14 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first
+
+
+2018/02/07
+Rost
+- added images folder
+- added bootstrap files
+- added js min files
+  
 2018/02/07 - John
 - Modified the  config.php file for menubar items
 - Created the menubar view
