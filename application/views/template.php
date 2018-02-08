@@ -1,6 +1,11 @@
 <?php
 if (!defined('APPPATH'))
 	exit('No direct script access allowed');
+<<<<<<< Updated upstream
+=======
+/**
+ */
+>>>>>>> Stashed changes
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +20,11 @@ if (!defined('APPPATH'))
         <div class="container">
             <div class="navbar">
                 <div class="navbar-inner">
+<<<<<<< Updated upstream
                     <a class="brand" href="/"></a>
+=======
+                    <a class="brand" href="/"><img src="/assets/images/logo.png"/></a>
+>>>>>>> Stashed changes
                     {menubar} </div>
             </div>
             <div id="content">
