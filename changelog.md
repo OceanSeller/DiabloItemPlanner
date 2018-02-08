@@ -7,10 +7,11 @@ Changes Made (Latest first
 
 2018/02/07
 Rost
+- submitting one more commit to test
 - added images folder
 - added bootstrap files
 - added js min files
-  
+
 2018/02/07 - John
 - Modified the  config.php file for menubar items
 - Created the menubar view
