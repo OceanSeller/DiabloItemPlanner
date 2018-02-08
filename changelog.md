@@ -7,10 +7,11 @@ Changes Made (Latest first
 
 2018/02/07
 Rost
+- one more change
 - added images folder
 - added bootstrap files
 - added js min files
-  
+
 2018/02/07 - John
 - Created 2 csv files (to be changed by another user later on)
   : Set.csv (Contains the information for the set)
