@@ -5,12 +5,19 @@ All users are required to list the changes made to the repo prior to making a pu
 Changes Made (Latest first
 
 
+2018/02/08
+Rost
+- added 3 models: Accessories.php, Categories.php, Sets.php
+- implemented the methods in the models
+- added instance variables to the models
+
+
 2018/02/07
 Rost
 - added images folder
 - added bootstrap files
 - added js min files
-  
+
 2018/02/07 - John
 - Created 2 csv files (to be changed by another user later on)
   : Set.csv (Contains the information for the set)
