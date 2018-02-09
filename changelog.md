@@ -3,7 +3,9 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first
-
+2018/02/09
+Rost
+- updated constructor for sets and cat models
 
 2018/02/09
 Rost
@@ -24,7 +26,7 @@ Rost
   - Accessories.php
   - Sets.php
   - Categories.php
-- implemented methods from interface 
+- implemented methods from interface
 
 
 2018/02/08
