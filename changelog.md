@@ -6,6 +6,8 @@ Changes Made (Latest first
 2018-02-09
 Yan
 - added controllers/Catalog.php
+- changed typo in catagory.cvs
+- added views/catalog.php (version 1)
 
 2018/02/08
 Rost
