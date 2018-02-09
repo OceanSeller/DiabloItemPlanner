@@ -4,10 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Home', 'link' => '/'),
-        array('name' => 'Category', 'link' => '/category'),
+        array('name' => 'Catalog', 'link' => '/catalog'),
+        array('name' => 'Info', 'link' => '/info'),
         )
     );
-    
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL

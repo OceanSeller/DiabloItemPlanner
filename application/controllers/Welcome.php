@@ -22,5 +22,4 @@ class Welcome extends Application
 		$this->data['pagebody'] = 'homepage';
 		$this->render();
 	}
-
 }
