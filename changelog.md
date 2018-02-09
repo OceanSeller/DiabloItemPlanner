@@ -4,8 +4,13 @@ All users are required to list the changes made to the repo prior to making a pu
 
 Changes Made (Latest first
 2018/02/09
+Rost
+- updated constructor for sets and cat models
+
+2018/02/09
 John
 - Synced the repo with the latest changes from jedi-academy master
+
 
 2018/02/09
 Rost
