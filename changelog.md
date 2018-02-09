@@ -7,6 +7,19 @@ Changes Made (Latest first
 John
 - Synced the repo with the latest changes from jedi-academy master
 
+2018/02/09
+Rost
+- updated Accesories.csv
+- updated constructor in accessories model
+- deleted useless methods from models
+
+2018-02-09
+Yan
+- added controllers/Catalog.php
+- changed typo in catagory.cvs
+- added views/catalog.php (version 1)
+
+
 2018/02/08
 Rost
 - added models files
@@ -14,6 +27,7 @@ Rost
   - Sets.php
   - Categories.php
 - implemented methods from interface
+
 
 2018/02/08
 - Created set viewer with hardcoded images
@@ -44,3 +58,5 @@ Rost
 - Creating the general template view
 2018/02/07 - John
 - Created the changelog file
+2018/02/07 - Davin
+- Updated UI to what I had at the time (to prevent possible conflicts later on)

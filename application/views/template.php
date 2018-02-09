@@ -10,17 +10,20 @@ if (!defined('APPPATH'))
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/styleMadeByDavin.css"/>
     </head>
     <body>
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <div class="navbar-inner">
                     <a class="brand" href="/"></a>
                     {menubar} </div>
             </div>
             <div id="content">
-                <h1>{pagetitle}</h1>
-                {content}
+                <div id="contentText">
+                    <h1>{pagetitle}</h1>
+                    {content}
+                </div>
             </div>
             <div id="footer" class="span12">
                 Copyright &copy; 2017-2018,  <a href="mailto:someone@somewhere.com">Me</a>.
