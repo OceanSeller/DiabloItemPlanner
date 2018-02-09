@@ -15,7 +15,7 @@ class Accesories extends CSV_Model
 
 	public function __construct()
 	{
-		parent::__construct("../data/Accessories.csv", "id");
 
+		parent::__construct("../data/Accessories.csv", "id");
 	}
 }
