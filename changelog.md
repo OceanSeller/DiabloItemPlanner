@@ -40,3 +40,5 @@ Rost
 - Creating the general template view
 2018/02/07 - John
 - Created the changelog file
+2018/02/07 - Davin
+- Updated UI to what I had at the time (to prevent possible conflicts later on)
