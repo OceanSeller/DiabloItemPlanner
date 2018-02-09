@@ -1,7 +1,19 @@
 <!-- The main view of the diablo inventory will be displayed in this page -->
 <h1>This is our Home Page</h1>
 <div id="body">
-    <canvas id="inventoryCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+    <div>
+        <select id="setDropdown">
+            <option>Choose a set</option>
+            {sets}
+            <option value="{id}">{name}</option>
+            {/sets}
+        </select>
+        <button onclick="loadSet()">Show Set</button>
+    </div>
+    <div>
+        <canvas id="inventoryCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+    </div>
+    
     <script>
         var images = [];
         
@@ -70,6 +82,16 @@
             var weaponStartX = 38 + 95 / 2 - weaponScaleX / 2;
             var weaponStartY = 448;
             ctx.drawImage(weapon, weaponStartX, weaponStartY, weaponScaleX, weaponScaleY);
+        }
+        
+        function loadSet()
+        {
+            var setDropdown = document.getElementById("setDropdown");
+            if (setDropdown.options[setDropdown.selectedIndex].hasAttribute('value'))
+            {
+                var id = setDropdown.options[setDropdown.selectedIndex].value;
+                location.replace("/set/" + id);
+            }
         }
     </script>
 </div>
