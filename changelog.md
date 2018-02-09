@@ -3,13 +3,17 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first
+2018/02/09
+John
+- Synced the repo with the latest changes from jedi-academy master
+
 2018/02/08
 Rost
 - added models files
   - Accessories.php
   - Sets.php
   - Categories.php
-- implemented methods from interface 
+- implemented methods from interface
 
 2018/02/08
 - Created set viewer with hardcoded images
