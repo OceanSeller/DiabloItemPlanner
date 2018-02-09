@@ -3,6 +3,11 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first
+
+2018/02/08
+- Created set viewer with hardcoded images
+- replaced weapon images
+
 2018/02/08
 - Created the finalized csv files for the following
     : Category
