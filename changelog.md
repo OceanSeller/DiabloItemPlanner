@@ -8,6 +8,11 @@ Rost
 - updated constructor for sets and cat models
 
 2018/02/09
+John
+- Synced the repo with the latest changes from jedi-academy master
+
+
+2018/02/09
 Rost
 - updated Accesories.csv
 - updated constructor in accessories model
