@@ -1,4 +1,4 @@
-<h1>This is our category page!</h1>
+<h1>This is our Catalog page!</h1>
 
 <div class="avatar">
 
@@ -77,7 +77,7 @@
               <span class="sr-only">Show Names</span>
             </div>
           </div>
-        
+
     <form class="form2" action="" method="POST">
         <input type="text" name="helmet" value="" hidden>
         <input type="text" name="Armor" value="" hidden>

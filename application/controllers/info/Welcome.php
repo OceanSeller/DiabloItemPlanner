@@ -5,10 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends Application
 {
 
-	function __construct()
-	{
-		parent::__construct();
-	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -23,9 +19,7 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
-		$this->data['pagebody'] = 'category';
-
+		$this->data['pagebody'] = 'homepage';
 		$this->render();
 	}
-
 }
