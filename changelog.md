@@ -4,6 +4,10 @@ All users are required to list the changes made to the repo prior to making a pu
 
 Changes Made (Latest first
 
+2018/02/08
+Nathaniel
+- create homepage set viewer with hardcoded images
+- replaced some images
 
 2018/02/07
 Rost
