@@ -14,6 +14,13 @@ Changes Made (Latest first
     : Accessory
     : Sets
 
+2018/02/08
+Rost
+- added 3 models: Accessories.php, Categories.php, Sets.php
+- implemented the methods in the models
+- added instance variables to the models
+
+
 2018/02/07
 Rost
 - one more change
