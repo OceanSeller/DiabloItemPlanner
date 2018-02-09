@@ -4,6 +4,11 @@ All users are required to list the changes made to the repo prior to making a pu
 
 Changes Made (Latest first
 2018/02/09
+John
+- Fixed the menubar not showing properly
+- Fixed spelling mistakes with routing for certain controllers and views
+- Created the routing for Catalog page
+2018/02/09
 Rost
 - updated constructor for sets and cat models
 
