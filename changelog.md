@@ -3,11 +3,20 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first
+
+
+2018/02/09
+Rost
+- updated Accesories.csv
+- updated constructor in accessories model
+- deleted useless methods from models
+
 2018-02-09
 Yan
 - added controllers/Catalog.php
 - changed typo in catagory.cvs
 - added views/catalog.php (version 1)
+
 
 2018/02/08
 Rost
@@ -16,6 +25,7 @@ Rost
   - Sets.php
   - Categories.php
 - implemented methods from interface 
+
 
 2018/02/08
 - Created set viewer with hardcoded images
