@@ -8,15 +8,16 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
-        $accessories = $this->accessories->all();
+		  	//$this->load->model('categories');
+        //$accessories = $this->accessories->all();
 
-        $categories = $this->categories->all();
+        //$categories = $this->categories->all();
 
-        $this->data['accessories'] = $accessories;
-        $this->data['categories'] = $categories;
+        //$this->data['accessories'] = $accessories;
+        //$this->data['categories'] = $categories;
         $this->data['pagebody'] = 'catalog';
-		//$this->data['pagetitle'] = 'OceanSeller'; /* May need to change later. */
+					//$this->data['pagetitle'] = 'OceanSeller'; /* May need to change later. */
 
-		$this->render();
+				$this->render();
 	}
 }

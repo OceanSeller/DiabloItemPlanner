@@ -7,11 +7,17 @@ class Categories extends CSV_Model
 
 	    public $name;
 
-	    public $description;
 
 	public function __construct()
 	{
-		parent::__construct("../data/Categories.csv", "id");
+		parent::__construct(APPPATH. '/models/data/categories.csv', 'id', 'category');
 
 	}
+
+	//returns all data
+	public function all()
+	{
+		return $this->data;
+	}
+
 }

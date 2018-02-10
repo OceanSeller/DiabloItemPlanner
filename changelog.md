@@ -4,6 +4,10 @@ All users are required to list the changes made to the repo prior to making a pu
 
 Changes Made (Latest first
 2018/02/09
+Rost
+- reconfigured catalog controller with model
+
+2018/02/09
 John
 - Fixed the menubar not showing properly
 - Fixed spelling mistakes with routing for certain controllers and views
