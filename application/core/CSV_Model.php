@@ -45,7 +45,7 @@ class CSV_Model extends Memory_Model
 	 * OVER-RIDE THIS METHOD in persistence choice implementations
 	 */
 	protected function load()
-	{/*
+	{
 		//---------------------
 		if (($handle = fopen($this->_origin, "r")) !== FALSE)
 		{
@@ -72,7 +72,7 @@ class CSV_Model extends Memory_Model
 		}
 		// --------------------
 		// rebuild the keys table
-		$this->reindex();*/
+		$this->reindex();
 	}
 
 	/**
