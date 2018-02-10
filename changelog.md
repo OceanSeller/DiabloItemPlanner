@@ -3,6 +3,8 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+2018/02/09 - Davin
+- Implemented custom features (buttons, border, and cursor)
 2018/02/09
 John
 - Edited autoloader to load the model information automatically.
@@ -84,4 +86,4 @@ Rost
 2018/02/07 - John
 - Created the changelog file
 2018/02/07 - Davin
-- Updated UI to what I had at the time (to prevent possible conflicts later on)
+- Updated UI to what I had at the time (to prevent possible conflicts later on).
