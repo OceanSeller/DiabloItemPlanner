@@ -2,7 +2,7 @@
 
 /**
  * Generic data access abstraction.
- * 
+ *
  * This is the intended implmentation for collection access.
  * Implementing classes will handle persistence.
  *

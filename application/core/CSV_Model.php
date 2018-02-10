@@ -2,7 +2,7 @@
 
 /**
  * CSV-persisted collection.
- * 
+ *
  * @author		JLP
  * @copyright           Copyright (c) 2010-2017, James L. Parry
  * ------------------------------------------------------------------------
@@ -19,7 +19,7 @@ class CSV_Model extends Memory_Model
 	 * @param string $keyfield  Name of the primary key field
 	 * @param string $entity	Entity name meaningful to the persistence
 	 */
-	function __construct($origin = null, $keyfield = 'id', $entity = null)
+	function __construct($origin, $keyfield = 'id', $entity = null)
 	{
 		parent::__construct();
 
