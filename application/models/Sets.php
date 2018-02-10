@@ -13,7 +13,7 @@ class Sets extends CSV_Model
 
 	public function __construct()
 	{
-		parent::__construct("../data/Sets.csv", "setID");
+		parent::__construct("../data/Set.csv", "setID");
 
 	}
 }
