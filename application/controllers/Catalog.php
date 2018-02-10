@@ -12,14 +12,17 @@ class Catalog extends Application
 	 }
 	public function index()
 	{
+		//get all accessories
 		$accessories = $this->accessories->all();
+		//get all categories
 		$categories = $this->categories->all();
+		//inject model into controller
 		$this->data['accessories'] = $accessories;
+		//inject model into controller
 		$this->data['categories'] = $categories;
+
 		$this->data['pagebody'] = 'catalog';
 		$this->data['pagetitle'] = 'Catalog Page';
-
-		//print_r($accessories = $this->accessories->all());
 
 		$this->render();
 	}
