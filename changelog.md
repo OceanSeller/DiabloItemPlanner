@@ -5,6 +5,13 @@ All users are required to list the changes made to the repo prior to making a pu
 Changes Made (Latest first)
 
 2018/02/09
+Nathaniel
+- Homepage display now pulling from models
+- Set dropdown dynamically populated
+- Can display chosen set
+- Modified Accessory.csv for proper paths
+
+2018/02/09
 Rost
 - added for each loop to catalog page
 - removed some data from catalog page
@@ -67,6 +74,7 @@ Rost
 
 
 2018/02/08
+Nathaniel
 - Created set viewer with hardcoded images
 - replaced weapon images
 

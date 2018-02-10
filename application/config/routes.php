@@ -53,3 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['catalog'] = 'catalog';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['set/(:num)'] = 'welcome/set/$1';
