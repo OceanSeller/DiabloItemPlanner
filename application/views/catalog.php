@@ -1,16 +1,16 @@
 <table>
 <tbody>
   <div id="all-items" class="items">
-    <?php foreach ($accessories as $accessory): ?>
+    {accessories}
         <tr class="item_row">
-          <td><img class="draggable drag-drop " src="<?php echo $accessory->imagepath; ?>"/></td>
-          <td><h4><?php echo $accessory->name; ?></h4></td>
-          <td><p>&nbsp;Weight: <?php echo $accessory->weight; ?></p></td>
-          <td><p>&nbsp;&nbsp;Damage: <?php echo $accessory->damage; ?></p></td>
-          <td><p>&nbsp;&nbsp;Protection: <?php echo $accessory->protection; ?></p></td>
+          <td><img class="draggable drag-drop " src="{imagepath}"/></td>
+          <td><h4>{name}</h4></td>
+          <td><p>&nbsp;Weight: {weight}</p></td>
+          <td><p>&nbsp;&nbsp;Damage: {damage}</p></td>
+          <td><p>&nbsp;&nbsp;Protection: {protection}</p></td>
         </tr>
       </div>
-    <?php endforeach; ?>
+    {/accessories}
   </div>
 </tbody>
 </table>
