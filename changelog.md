@@ -2,7 +2,11 @@ Group scarlett
 
 All users are required to list the changes made to the repo prior to making a pull request
 
-Changes Made (Latest first
+Changes Made (Latest first)
+2018/02/09
+John
+- The catalog page will show properly for now.
+
 2018/02/09
 Rost
 - reconfigured catalog controller with model

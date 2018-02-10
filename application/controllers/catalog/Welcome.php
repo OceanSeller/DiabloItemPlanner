@@ -15,6 +15,7 @@ class Welcome extends Application
 
         //$this->data['accessories'] = $accessories;
         //$this->data['categories'] = $categories;
+
         $this->data['pagebody'] = 'catalog';
 					//$this->data['pagetitle'] = 'OceanSeller'; /* May need to change later. */
 
