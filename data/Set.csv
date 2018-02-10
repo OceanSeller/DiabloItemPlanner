@@ -1,3 +1,3 @@
-id,weapon,armor,helmet,boots
-1,1,5,9,13
-2,2,6,10,14
+id,weapon,armor,helmet,boots,name
+1,1,5,9,13,Wrath
+2,2,6,10,14,Darkness

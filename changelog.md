@@ -12,6 +12,17 @@ Nathaniel
 - Modified Accessory.csv for proper paths
 
 2018/02/09
+Rost
+- added for each loop to catalog page
+- removed some data from catalog page
+- edited some names in the csv files
+- added view variables to accessories models file
+
+2018/02/09
+John
+- Created and finished the info controller
+
+2018/02/09
 John
 - Edited autoloader to load the model information automatically.
 - Ensured that the routing is done properly

@@ -5,7 +5,7 @@
         <select id="setDropdown">
             <option>Choose a set</option>
             {sets}
-            <option value="{id}">{id}</option>
+            <option value="{id}">{name}</option>
             {/sets}
         </select>
         <button onclick="loadSet()">Show Set</button>
@@ -24,22 +24,18 @@
         var helmet = new Image();
         helmet.src = "{helmet}";
         images.push(helmet);
-        console.log(helmet.src);
         
         var chestplate = new Image();
         chestplate.src = "{chestplate}";
         images.push(chestplate);
-        console.log(chestplate.src);
         
         var shoes = new Image();
         shoes.src = "{shoes}";
         images.push(shoes);
-        console.log(shoes.src);
         
         var weapon = new Image();
         weapon.src = "{weapon}";
         images.push(weapon);
-        console.log(weapon.src);
         
         var loadedImages = 0;
         for (var i = 0; i < images.length; ++i)
