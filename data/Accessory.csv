@@ -1,4 +1,4 @@
-id,name,category,naterials,weight,imagepath,damage,protection
+id,name,category,materials,weight,imagepath,damage,protection
 1,Axe of Wraith,1,Wooden,10, assets/images/axe_of_wraith.png,30,90
 2,Bow of Darkness,1,Copper,20, assets/images/bow_of_darkness.png,20,23
 3,Sword Plus One Burning,1,Titanium,30, assets/images/sword_plus_one.png,100,20
