@@ -13,19 +13,15 @@ class Welcome extends Application
 	public function index()
 	{
 
+		$accessories = $this->accessories->all();
+		$categories = $this->categories->all();
+		$this->data['accessories'] = $accessories;
+		$this->data['categories'] = $categories;
+		$this->data['pagebody'] = 'catalog';
+		$this->data['pagetitle'] = 'Catalog Page';
 
-        // $accessories = $this->accessories->all();
-        //
-        // $categories = $this->categories->all();
-        //
-        // $this->data['accessories'] = $accessories;
-        // $this->data['categories'] = $categories;
-				// $this->data['categories'] = $this->load->model('Categories');
-        // $this->data['pagebody'] = 'catalog';
-		//$this->data['pagetitle'] = 'OceanSeller'; /* May need to change later. */
-			$this->load->model('categories');
-			$this->data['pagebody'] = 'catalog';
-			//print_r($this->categories->all());
-		  $this->render();
+		//print_r($accessories = $this->accessories->all());
+
+		$this->render();
 	}
 }
