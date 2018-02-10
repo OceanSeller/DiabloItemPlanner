@@ -3,6 +3,14 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+
+2018/02/09
+Rost
+- added for each loop to catalog page
+- removed some data from catalog page
+- edited some names in the csv files
+- added view variables to accessories models file
+
 2018/02/09
 John
 - Created and finished the info controller
