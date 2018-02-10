@@ -8,7 +8,8 @@
             <option value="{id}">{name}</option>
             {/sets}
         </select>
-        <button onclick="loadSet()">Show Set</button>
+        <div onclick="loadSet()" class="customButton">Show Set</div>
+
     </div>
     <div>
         <canvas id="inventoryCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
