@@ -36,6 +36,7 @@ Yan
 - added controllers/Catalog.php
 - changed typo in catagory.cvs
 - added views/catalog.php (version 1)
+- added Damage and Protection to accessory.cvs
 
 
 2018/02/08
