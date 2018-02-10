@@ -3,6 +3,10 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+2018/02/10
+John
+- Updated UI to be more polished.
+
 2018/02/09
 John
 - Commented the info controller,  config.php, autoload, and routes
