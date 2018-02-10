@@ -5,9 +5,9 @@
         <tr class="item_row">
           <td><img class="draggable drag-drop " src="{imagepath}"/></td>
           <td><h4>{name}</h4></td>
-          <td><p>&nbsp;Weight: {weight}</p></td>
-          <td><p>&nbsp;&nbsp;Damage: {damage}</p></td>
-          <td><p>&nbsp;&nbsp;Protection: {protection}</p></td>
+          <td><p>Weight: {weight}</p></td>
+          <td><p>Damage: {damage}</p></td>
+          <td><p>Protection: {protection}</p></td>
         </tr>
       </div>
     {/accessories}

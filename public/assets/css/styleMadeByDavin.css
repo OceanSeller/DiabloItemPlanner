@@ -21,96 +21,54 @@ html {
  ul {
      list-style: none;
  }
- /*
-body {
-	background-image: url(../images/background.jpg);
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
 }
-#navbar navbar-inner {
-    color: white;
-    width: 100vw;
+tr {
+    padding: 0;
 }
-#content {
-	margin-left:5% auto;
-	margin-right:5% auto;
-    color: white;
-    background-color: black;
-    border: 5px solid #993d00;
-    border-radius: 10px;
+tr:hover {
+    background-color: rgba(100,100,100,0.3);
 }
-#content h1 {
-	font-family:"Diablo Header";
-    font-size: 5em;
-    letter-spacing: 5px;
+tr:not(:last-child) {
+    border-bottom: 1px solid #E3E3E3;
 }
-#contentText {
-    width: 80%;
-    margin: 0 auto;
-    padding: 5% 0;
-}
-#footer {
-	font-size: small;
-	font-style:italic;
-	text-align:center;
-}
-.row>div {
-	margin-bottom:10px;
-}
-#h1Text {
- 	font-family:"Diablo Heavy";
-     font-size: 10px;
-     letter-spacing: 3px;
-     text-shadow: 0 0 0.5em white;
-     text-align: center;
- }
- #h1Text h1 {
-     font-size: 5em;
- }
- #contentText {
-     width: 80%;
-     margin: 0 auto;
-     padding: 5% 0;
- }
- #footer {
- 	font-size: small;
- 	font-style:italic;
- 	text-align:center;
- }
- .row>div {
- 	margin-bottom:10px;
- }
- .customButton {
-     background-image: url(../images/button.jpg);
-     background-clip: border-box;
-     font-family:"Diablo Light";
-     width: 175px;
-     height: 58px;
-     line-height: 58px;
-     font-size: 1.5em;
-     text-align: center;
-     cursor: inherit;
- }
- .customButton:hover {
-     background-image: url(../images/onHoverButton.jpg);
- }
- */
  body {
  	background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
      margin: 0;
+     background-size: auto;
+     background-position: auto;
  }
  .container {
      width: 100vw;
      height: 100vh;
  }
+#navbarPlaceholder {
+     color: white;
+     width: 25%;
+     position: relative;
+     float: left;
+     background-size:cover;
+     height: 100%;
+     font-family:"Diablo Heavy";
+     font-size: 2em;
+     display: block;
+}
  #navbar {
      color: white;
-     width: 20%;
-     position: relative;
+     width: 25%;
      float: left;
      background: linear-gradient(to right, rgba(0,0,0,0.8) , rgba(0,0,0,0));
      background-size:cover;
      height: 100%;
- 	font-family:"Diablo Heavy";
+     font-family:"Diablo Heavy";
      font-size: 2em;
+     position: fixed;
+     z-index: 1;
  }
  #navbar li {
      margin-bottom: 1em;
@@ -118,10 +76,10 @@ body {
  #content {
      position: relative;
      float: left;
-     margin-top: 5%;
-     margin-left: 5%;
+     margin: 3% auto;
+     padding: 3% 0;
      color: white;
-     background-color: rgba(0,0,0,0.8);
+     background-color: rgba(0,0,0,0.85);
      border: 10px solid #993d00;
      border-image: url(../images/borderBrown2.png) 10 stretch;
      width: 70%;
@@ -135,9 +93,11 @@ body {
  }
  #h1Text h1 {
       font-size: 5em;
+     margin: 0 0 3%;
   }
 #contentText {
-      width: 80%;
+    width: 80%;
+    margin: 0 auto
 }
 .customListItem {
      background-image: url(../images/listItem.png);
@@ -164,7 +124,14 @@ body {
      font-size: 1.5em;
      text-align: center;
      cursor: inherit;
+     margin: 2% 0 5%;
  }
  .customButton:hover {
      background-image: url(../images/onHoverButton.jpg);
-  } 
+  }
+select {
+    width: 100% !important;
+}
+#selectSection {
+    float: right;
+}
