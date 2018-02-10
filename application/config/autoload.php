@@ -132,4 +132,6 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+
+//Adding the model data automatically.
 $autoload['model'] = array('categories', 'accessories', 'set' );
