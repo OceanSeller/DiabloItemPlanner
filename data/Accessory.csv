@@ -1,17 +1,17 @@
-id,name,category,materials,weight,imagepath,damage,protection
-1,Axe of Wraith,1,Wooden,10, assets/images/axe_of_wraith.png,30,90
-2,Bow of Darkness,1,Copper,20, assets/images/bow_of_darkness.png,20,23
-3,Sword Plus One Burning,1,Titanium,30, assets/images/sword_plus_one.png,100,20
-4,Staff of Herding,1,Bronze,40, assets/images/Staff_of_Herding.png,39,20
-5,Armor of Wraith,2,Wooden,10, assets/images/armor_of_wraith.png,20,90
-6,Armor of Darkness,2,Copper,20, assets/images/armor_of_darkness.png,48,20
-7,Armor Plus One Burning,2,Titanium,30, assets/images/armor_plus_one.png,39,10
-8,Armor of Herding,2,Bronze,40, assets/images/armor_of_herding.png,48,20
-9,Helmet of Wraith,3,Wooden,10, assets/images/helm_of_wraith.png,57,30
-10,Helmet of Darkness,3,Copper,20, assets/images/helm_of_darkness.png,49,30
-11,Helmet Plus One Burning,3,Titanium,30, assets/images/helm_plus_one.png,32,10
-12,Helmet of Herding,3,Bronze,40, assets/images/helm_of_herding.png,12,30
-13,Boots of Wraith,4,Wooden,10, assets/images/boots_of_wraith.png,9,20
-14,Boots of Darkness,4,Copper,20, assets/images/boots_of_darkness.png,30,10
-15,Boots Plus One Burning,4,Titanium,30, assets/images/boots_plus_one.png,32,20
-16,Boots of Herding,4,Bronze,40, assets/images/boots_of_herding.png,21,10
+id,name,category,naterials,weight,imagepath,damage,protection
+1,AxeofWraith,1,Wooden,10,/assets/images/axe_of_wraith.png,30,90
+2,BowofDarkness,1,Copper,20,/assets/images/bow_of_darkness.png,20,23
+3,SwordPlusOneBurning,1,Titanium,30,/assets/images/sword_plus_one.png,100,20
+4,StaffofHerding,1,Bronze,40,/assets/images/Staff_of_Herding.png,39,20
+5,ArmorofWraith,2,Wooden,10,/assets/images/armor_of_wraith.png,20,90
+6,ArmorofDarkness,2,Copper,20,/assets/images/armor_of_darkness.png,48,20
+7,ArmorPlusOneBurning,2,Titanium,30,/assets/images/armor_plus_one.png,39,10
+8,ArmorofHerding,2,Bronze,40,/assets/images/armor_of_herding.png,48,20
+9,HelmetofWraith,3,Wooden,10,/assets/images/helm_of_wraith.png,57,30
+10,HelmetofDarkness,3,Copper,20,/assets/images/helm_of_darkness.png,49,30
+11,HelmetPlusOneBurning,3,Titanium,30,/assets/images/helm_plus_one.png,32,10
+12,HelmetofHerding,3,Bronze,40,/assets/images/helm_of_herding.png,12,30
+13,BootsofWraith,4,Wooden,10,/assets/images/boots_of_wraith.png,9,20
+14,BootsofDarkness,4,Copper,20,/assets/images/boots_of_darkness.png,30,10
+15,BootsPlusOneBurning,4,Titanium,30,/assets/images/boots_plus_one.png,32,20
+16,BootsofHerding,4,Bronze,40,/assets/images/boots_of_herding.png,21,10

@@ -3,6 +3,18 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+2018/02/09 - Davin
+- Implemented custom features (buttons, border, and cursor)
+2018/02/09
+John
+- Commented the info controller,  config.php, autoload, and routes
+
+2018/02/09
+Nathaniel
+- Homepage display now pulling from models
+- Set dropdown dynamically populated
+- Can display chosen set
+- Modified Accessory.csv for proper paths
 
 2018/02/09
 Rost
@@ -10,6 +22,10 @@ Rost
 - removed some data from catalog page
 - edited some names in the csv files
 - added view variables to accessories models file
+
+2018/02/09
+John
+- Created and finished the info controller
 
 2018/02/09
 John
@@ -63,6 +79,7 @@ Rost
 
 
 2018/02/08
+Nathaniel
 - Created set viewer with hardcoded images
 - replaced weapon images
 
@@ -92,4 +109,4 @@ Rost
 2018/02/07 - John
 - Created the changelog file
 2018/02/07 - Davin
-- Updated UI to what I had at the time (to prevent possible conflicts later on)
+- Updated UI to what I had at the time (to prevent possible conflicts later on).
