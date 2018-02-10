@@ -19,7 +19,29 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
+        $this->data['sets'] = $this->set->all();
+        $set = $this->set->first();
+        
+        $this->data['weapon'] = $this->accessories->get($set->weapon)->imagepath;
+        $this->data['chestplate'] = $this->accessories->get($set->armor)->imagepath;
+        $this->data['shoes'] = $this->accessories->get($set->boots)->imagepath;
+        $this->data['helmet'] = $this->accessories->get($set->helmet)->imagepath;
+        
 		$this->data['pagebody'] = 'homepage';
 		$this->render();
 	}
+    
+    public function set($key)
+    {
+        $this->data['sets'] = $this->set->all();
+        $set = $this->set->get($key);
+        
+        $this->data['weapon'] = $this->accessories->get($set->weapon)->imagepath;
+        $this->data['chestplate'] = $this->accessories->get($set->armor)->imagepath;
+        $this->data['shoes'] = $this->accessories->get($set->boots)->imagepath;
+        $this->data['helmet'] = $this->accessories->get($set->helmet)->imagepath;
+        
+        $this->data['pagebody'] = 'homepage';
+		$this->render();
+    }
 }
