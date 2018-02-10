@@ -5,6 +5,10 @@ All users are required to list the changes made to the repo prior to making a pu
 Changes Made (Latest first)
 2018/02/09
 John
+- The controller is able to pull data properly and have it ready from the model.
+
+2018/02/09
+John
 - The catalog page will show properly for now.
 
 2018/02/09
