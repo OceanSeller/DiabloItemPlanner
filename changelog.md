@@ -5,6 +5,10 @@ All users are required to list the changes made to the repo prior to making a pu
 Changes Made (Latest first)
 2018/02/09
 John
+- Created and finished the info controller
+
+2018/02/09
+John
 - Edited autoloader to load the model information automatically.
 - Ensured that the routing is done properly
 - The catalog controller now incorporates the accessory and category model.
