@@ -3,6 +3,14 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+
+2018/02/09
+Nathaniel
+- Homepage display now pulling from models
+- Set dropdown dynamically populated
+- Can display chosen set
+- Modified Accessory.csv for proper paths
+
 2018/02/09
 John
 - Edited autoloader to load the model information automatically.
@@ -55,6 +63,7 @@ Rost
 
 
 2018/02/08
+Nathaniel
 - Created set viewer with hardcoded images
 - replaced weapon images
 
