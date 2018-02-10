@@ -8,6 +8,10 @@ John
 - The catalog page will show properly for now.
 
 2018/02/09
+Rost
+- reconfigured catalog controller with model
+
+2018/02/09
 John
 - Fixed the menubar not showing properly
 - Fixed spelling mistakes with routing for certain controllers and views
