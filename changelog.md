@@ -3,9 +3,19 @@ Group scarlett
 All users are required to list the changes made to the repo prior to making a pull request
 
 Changes Made (Latest first)
+
 2018/02/10
-John
+Davin
 - Updated UI to be more polished.
+
+2018/02/10
+Nathaniel
+- Changed path for set viewer background so that it is consistent for case-sensitive systems
+
+2018/02/10
+Nathaniel
+- Changed set viewer images from objects to html elements
+- Moved javascript from inline to external since it no longer needs template parser to work
 
 2018/02/09
 John
