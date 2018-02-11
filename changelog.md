@@ -5,6 +5,10 @@ All users are required to list the changes made to the repo prior to making a pu
 Changes Made (Latest first)
 
 2018/02/10
+Davin
+- Updated UI to be more polished.
+
+2018/02/10
 Nathaniel
 - Changed path for set viewer background so that it is consistent for case-sensitive systems
 

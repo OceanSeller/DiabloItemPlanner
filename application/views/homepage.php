@@ -1,7 +1,6 @@
 <!-- The main view of the diablo inventory will be displayed in this page -->
-<h1>This is our Home Page</h1>
 <div id="body">
-    <div>
+    <div id="selectSection">
         <select id="setDropdown">
             <option>Choose a set</option>
             {sets}
@@ -9,7 +8,6 @@
             {/sets}
         </select>
         <div onclick="loadSet();" class="customButton">Show Set</div>
-
     </div>
     <div>
         <canvas id="inventoryCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
