@@ -6,6 +6,11 @@ Changes Made (Latest first)
 
 2018/02/10
 Davin
+- Better stylised table in catalog page.
+- Changed background image on content box.
+
+2018/02/10
+Davin
 - Updated UI to be more polished.
 
 2018/02/10
