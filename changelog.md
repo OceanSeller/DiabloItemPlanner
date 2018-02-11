@@ -6,6 +6,10 @@ Changes Made (Latest first)
 
 2018/02/10
 Nathaniel
+- Changed path for set viewer background so that it is consistent for case-sensitive systems
+
+2018/02/10
+Nathaniel
 - Changed set viewer images from objects to html elements
 - Moved javascript from inline to external since it no longer needs template parser to work
 
