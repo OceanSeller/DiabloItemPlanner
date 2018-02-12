@@ -1,13 +1,20 @@
 <table>
+        <tr class="item_row">
+          <th>Image</th>
+          <th>Name</th>
+          <th>Weight</th>
+          <th>Damage</th>
+          <th>Protection</th>
+        </tr>
 <tbody>
   <div id="all-items" class="items">
     {accessories}
         <tr class="item_row">
           <td><img class="draggable drag-drop " src="{imagepath}"/></td>
           <td><h4>{name}</h4></td>
-          <td><p>&nbsp;Weight: {weight}</p></td>
-          <td><p>&nbsp;&nbsp;Damage: {damage}</p></td>
-          <td><p>&nbsp;&nbsp;Protection: {protection}</p></td>
+          <td><p>{weight}</p></td>
+          <td><p>{damage}</p></td>
+          <td><p>{protection}</p></td>
         </tr>
       </div>
     {/accessories}

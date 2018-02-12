@@ -21,6 +21,7 @@ class Welcome extends Application
 	{
         // get an array of all sets, to use their id and name
         $this->data['sets'] = $this->set->all();
+        $this->data['pagetitle'] = 'Home Page';
         
         // for homepage get first available set
         $set = $this->set->first();
@@ -38,6 +39,7 @@ class Welcome extends Application
     {
         // get an array of all sets, to user their id and name
         $this->data['sets'] = $this->set->all();
+        $this->data['pagetitle'] = 'Home Page';
         
         // for set viewer get set matching key
         $set = $this->set->get($key);

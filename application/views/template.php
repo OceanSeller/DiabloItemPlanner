@@ -14,6 +14,8 @@ if (!defined('APPPATH'))
     </head>
     <body>
         <div class="container">
+            <div class="navbar" id="navbarPlaceholder">
+            </div>
             <div class="navbar" id="navbar">
                 <div class="navbar-inner">
                     <a class="brand" href="/"></a>
