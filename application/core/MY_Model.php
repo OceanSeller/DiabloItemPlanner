@@ -2,17 +2,18 @@
 // pull in the interface we are supposed to implement
 // Note that it doesn't have to follow the normal CodeIgniter naming rules!
 require_once 'DataMapper.php';
+require_once 'Entity.php';
 
 /**
  * Generic data access model, for an RDB.
- * 
+ *
  * This class is called MY_Model to keep CodeIgniter happy.
  *
  * @author		JLP
  * @copyright           Copyright (c) 2010-2017, James L. Parry
  * ------------------------------------------------------------------------
  */
-class MY_Model extends CI_Model implements DataMapper
+class MY_Model extends Entity implements DataMapper
 {
 
 	protected $_tableName;   // Which table is this a model for?
@@ -95,7 +96,7 @@ class MY_Model extends CI_Model implements DataMapper
 	}
 
 	// Retrieve an existing DB record as an object
-	function get($key, $key2 = null)
+	function get($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$query = $this->db->get($this->_tableName);
@@ -123,14 +124,14 @@ class MY_Model extends CI_Model implements DataMapper
 	}
 
 	// Delete a record from the DB
-	function delete($key, $key2 = null)
+	function delete($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$object = $this->db->delete($this->_tableName);
 	}
 
 	// Determine if a key exists
-	function exists($key, $key2 = null)
+	function exists($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$query = $this->db->get($this->_tableName);
@@ -356,7 +357,7 @@ class MY_Model2 extends MY_Model
 // Include any other persistence implementations, so that they can be used
 // as base models for any in a webapp.
 
-include_once 'Entity.php';  // provide for our entity
-include_once 'RDB_Model.php';	// backed by an RDB
+include_once 'RDB_Model.php';		// backed by an RDB
 include_once 'Memory_Model.php';	// In-memory only
-include_once 'CSV_Model.php';	// CSV persisted
+include_once 'CSV_Model.php';		// CSV persisted
+include_once 'XML_Model.php';		// XML persisted

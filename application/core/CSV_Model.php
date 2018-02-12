@@ -2,7 +2,7 @@
 
 /**
  * CSV-persisted collection.
- * 
+ *
  * @author		JLP
  * @copyright           Copyright (c) 2010-2017, James L. Parry
  * ------------------------------------------------------------------------
@@ -19,7 +19,7 @@ class CSV_Model extends Memory_Model
 	 * @param string $keyfield  Name of the primary key field
 	 * @param string $entity	Entity name meaningful to the persistence
 	 */
-	function __construct($origin = null, $keyfield = 'id', $entity = null)
+	function __construct($origin = null,  $keyfield = 'id', $entity = null)
 	{
 		parent::__construct();
 
@@ -61,7 +61,7 @@ class CSV_Model extends Memory_Model
 				else
 				{
 					// build object from a row
-					$record = new $this->entity();
+					$record = new stdClass();
 					for ($i = 0; $i < count($this->_fields); $i ++ )
 						$record->{$this->_fields[$i]} = $data[$i];
 					$key = $record->{$this->_keyfield};

@@ -1,0 +1,155 @@
+/* Cutom font downloaded online */
+@font-face {
+    font-family: "Diablo Heavy";
+    src: url("../fonts/DIABLO_H.ttf");
+}
+@font-face {
+    font-family: "Diablo Light";
+    src: url("../fonts/DIABLO_L.ttf");
+}
+html {
+    cursor: url(../images/cursorSmall.png), auto; /* Image taken and modified via screenshot */
+}
+
+/* Removed common mouse, link and list styles and set them to be constant instead */
+a, select {
+    cursor: inherit;
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+/* Set table styles to be long and have a defined line inbetween rows */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+}
+tr {
+    padding: 0;
+}
+tr:hover {
+    background-color: rgba(100,100,100,0.3);
+}
+tr:not(:last-child) { /* Table looks weird if the last row has a line under it */
+    border-bottom: 1px solid #E3E3E3;
+}
+th {
+    font-size: 1.5em;
+    font-family: "Diablo Light"; /* To match the website's font */
+    font-weight: 200; /* To separate it from other text that uses the same font */
+}
+
+/* Set the bakground image to fill the screen and stay there regardless of scrolling */
+ body {
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    background-size: auto;
+    background-position: auto;
+ }
+
+/* Maximized the size of the container to make it easier to determine the size on the inner contents */
+ .container {
+    width: 100vw;
+    height: 100vh;
+ }
+
+/* In order to have the side navbar stay in the same position regardless of scrolling we need to make it fixed but that will make the other content go all the way to the left. Davin's solution was to make a placeholder that will act in place on the navbar in position and size only */
+#navbarPlaceholder {
+    width: 25%;
+    position: relative;
+    float: left;
+    height: 100%;
+    display: block;
+}
+ #navbar {
+     color: white;
+     width: 25%;
+     float: left;
+     background: linear-gradient(to right, rgba(0,0,0,0.8) , rgba(0,0,0,0));
+     background-size:cover;
+     height: 100%;
+     font-family:"Diablo Heavy";
+     font-size: 2em;
+     position: fixed;
+     z-index: 1;
+ }
+ #navbar li {
+     margin-bottom: 1em;
+ }
+ #content {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../images/contentBackgroundTexture.jpg); /* Causes a tinted background effect */
+    color: white;
+    background-size: cover; /* TO make the background image fill the div */
+    border: 10px solid #993d00;
+    border-image: url(../images/borderBrown2.png) 10 stretch; /* Border was made via Photoshop */
+    position: relative;
+    float: left;
+    /* Numbers chosen arbitrarily */
+    margin: 3% 0;
+    padding: 3% 0;
+    width: 70%;
+ }
+ #h1Text {
+    font-family:"Diablo Heavy";
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 0.5em white; /* Subtle glow effect */
+    text-align: center;
+ }
+#h1Text h1 {
+    font-size: 5em;
+    margin: 0 0 3%;
+}
+#contentText {
+    width: 80%;
+    margin: 0 auto
+}
+
+/* Don't have the time or skill to change the colour of the button through code, so I just made 2 separate images and have the image of the button change when the cursor hovers over it */
+.customListItem {
+    background-image: url(../images/listItem.png);
+    background-clip: border-box;
+    font-family:"Diablo Light";
+    width: 278px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 1.1em;
+    text-align: center;
+    cursor: inherit;
+ }
+ .customListItem:hover {
+     background-image: url(../images/listItemOnHover.png);
+     text-shadow: 0 0 0.5em white; /* Subtle glow effect */
+ }
+.customButton {
+    background-image: url(../images/button.jpg);
+    background-clip: border-box;
+    font-family:"Diablo Light";
+    width: 175px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: inherit;
+    margin: 2% 0 5%;
+}
+.customButton:hover {
+    background-image: url(../images/onHoverButton.jpg);
+}
+select {
+    width: 100%;
+}
+#selectSection {
+    float: right;
+}
