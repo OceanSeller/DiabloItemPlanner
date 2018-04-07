@@ -1,3 +1,4 @@
+<?php $prevCategory = -1; ?>
 <table>
         <tr class="item_row">
           <th>Image</th>
@@ -8,17 +9,25 @@
         </tr>
 <tbody>
   <div id="all-items" class="items">
-    {accessories}
-        <tr class="item_row">
-          <td><img class="draggable drag-drop " src="{imagepath}"/></td>
-          <td><h4>{name}</h4></td>
-          <td><p>{weight}</p></td>
-          <td><p>{damage}</p></td>
-          <td><p>{protection}</p></td>
-        </tr>
-      </div>
-    {/accessories}
-  </div>
+        <?php 
+            foreach($accessories as $accessory) {
+                if ($accessory->category != $prevCategory) {
+                    $prevCategory = $accessory->category;
+                ?>
+                      <tr class="item_row">
+                          <th colspan="5" class="categoryTableHeading"><?php print($categories[$prevCategory]->name); ?></th>
+                      </tr>
+                    <?php $prevCategory = $accessory->category;
+                }?>
+                <tr class="item_row">
+                  <td><img src="<?php echo $accessory->imagepath; ?>"/></td>
+                  <td><h4><?php echo $accessory->name; ?></h4></td>
+                  <td><p><?php echo $accessory->weight; ?></p></td>
+                  <td><p><?php echo $accessory->damage; ?></p></td>
+                  <td><p><?php echo $accessory->protection; ?></p></td>
+                </tr>
+        <?php } ?>
+    </div>
 </tbody>
 </table>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

@@ -153,3 +153,7 @@ select {
 #selectSection {
     float: right;
 }
+.categoryTableHeading {
+    padding: 1em 0em;
+    font-size: 1.8em;
+}
