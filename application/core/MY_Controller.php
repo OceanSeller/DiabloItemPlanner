@@ -32,6 +32,14 @@ class Application extends CI_Controller
 	 */
 	function render($template = 'template')
 	{
+        if (isset($_POST["userRole"])) {
+            $_SESSION["userRole"] = $_POST["userRole"];
+            $this->data['userRole'] = $_POST["userRole"];
+        } else if (isset($_SESSION["userRole"])) {
+            $this->data['userRole'] = $_SESSION["userRole"];
+        } else {
+            $this->data['userRole'] = "Guest";
+        }
 		$this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
 		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
 		$this->parser->parse('template', $this->data);
