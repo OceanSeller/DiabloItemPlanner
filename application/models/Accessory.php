@@ -16,17 +16,6 @@ class Accessory extends Entity
         return $this->$key;
     }
     
-    // magic setter override, disallows assigning null to any value
-    public function __set($key, $value)
-    {
-        if (empty($value))
-        {
-            throw new InvalidArgumentException($key . ' must have a value');
-        }
-        
-        return parent::__set($key, $value);
-    }
-    
     // magic setter methods for each variable
     
     public function setId($value)
