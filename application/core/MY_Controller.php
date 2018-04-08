@@ -41,8 +41,15 @@ class Application extends CI_Controller
         } else {
             $this->data['userRole'] = "Guest";
         }
-		$this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
-		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
+        if ($this->data['userRole'] == "Admin") {
+            $this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('admin_menu_choices'), true);
+        } else {
+            if ($this->data['pagebody'] == "maintenance") {
+                redirect('/catalog', 'refresh');
+            }
+            $this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'), true);
+        }
+        $this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
 		$this->parser->parse('template', $this->data);
 	}
 
