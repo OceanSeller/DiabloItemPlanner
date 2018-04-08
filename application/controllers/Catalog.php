@@ -20,7 +20,6 @@ class Catalog extends Application
 		$this->data['accessories'] = $accessories;
 		//inject model into controller
 		$this->data['categories'] = $categories;
-
 		$this->data['pagebody'] = 'catalog';
 		$this->data['pagetitle'] = 'Catalog Page';
 
