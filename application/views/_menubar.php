@@ -4,7 +4,7 @@
     {/menudata}
     <form action="" method="post">
         <select name="userRole" onchange="this.form.submit()">
-            <option>User Roles</option>
+            <option>User Role</option>
             <option>Guest</option>
             <option>User</option>
             <option>Admin</option>
