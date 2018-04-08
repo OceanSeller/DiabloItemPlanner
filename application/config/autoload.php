@@ -135,4 +135,3 @@ $autoload['language'] = array();
 
 //Adding the model data automatically.
 $autoload['model'] = array('categories', 'accessories', 'set' );
-// $autoload['entity'] = array('categories', 'accessories', 'set' );
