@@ -9,9 +9,10 @@
     {/menudata}
     <form action="" method="post">
         <select name="userRole" onchange="this.form.submit()">
-            <option <?php if ($_SESSION["userRole"] == "Guest") echo "selected";?>>Guest</option>
-            <option <?php if ($_SESSION["userRole"] == "User") echo "selected";?>>User</option>
-            <option <?php if ($_SESSION["userRole"] == "Admin") echo "selected";?>>Admin</option>
+            <option>User Role</option>
+            <option>Guest</option>
+            <option>User</option>
+            <option>Admin</option>
         </select>
     </form>
 </ul>

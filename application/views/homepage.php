@@ -14,6 +14,9 @@
     </div>
     <div style="display:none">
         <img id="bg" src="/assets/images/setviewerbg.png" />
+        <select>
+            <option>x</option>
+        </select>
         <img id="helmet" src="{helmet}" />
         <img id="chestplate" src="{chestplate}" />
         <img id="shoes" src="{shoes}" />

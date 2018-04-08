@@ -32,11 +32,12 @@ class Application extends CI_Controller
 	 */
 	function render($template = 'template')
 	{
+        $this->load->library('session');
         if (isset($_POST["userRole"])) {
-            $_SESSION["userRole"] = $_POST["userRole"];
+            $this->session->set_userdata("userRole", $_POST["userRole"]);
             $this->data['userRole'] = $_POST["userRole"];
         } else if (isset($_SESSION["userRole"])) {
-            $this->data['userRole'] = $_SESSION["userRole"];
+            $this->data['userRole'] = $this->session->userdata("userRole");
         } else {
             $this->data['userRole'] = "Guest";
         }
