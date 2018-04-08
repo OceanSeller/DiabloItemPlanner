@@ -19,6 +19,6 @@
         <img id="shoes" src="{shoes}" />
         <img id="weapon" src="{weapon}" />
     </div>
-    
+
     <script src="/assets/js/setviewer.js"></script>
 </div>

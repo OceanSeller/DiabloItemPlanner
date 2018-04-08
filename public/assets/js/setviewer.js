@@ -45,37 +45,37 @@ function drawImages()
     {
         return;
     }
-    
+
     var canvas = document.getElementById("inventoryCanvas");
     var ctx = canvas.getContext("2d");
-    
+
     // init canvas width
     inventoryCanvas.width = bg.naturalWidth;
     inventoryCanvas.height = bg.naturalHeight;
     // draw bg
     ctx.drawImage(bg, 0, 0);
-    
+
     // draw helm
     var helmScaleX = 95 / helmet.naturalHeight * helmet.naturalWidth;
     var helmScaleY = 95;
     var helmStartX = 200 + 95 / 2 - helmScaleX / 2;
     var helmStartY = 32;
     ctx.drawImage(helmet, helmStartX, helmStartY, helmScaleX, helmScaleY);
-    
+
     // draw chest
     var chestScaleX = 170 / chestplate.naturalHeight * chestplate.naturalWidth;
     var chestScaleY = 170;
     var chestStartX = 187 + 120 / 2 - chestScaleX / 2;
     var chestStartY = 136;
     ctx.drawImage(chestplate, chestStartX, chestStartY, chestScaleX, chestScaleY);
-    
+
     // draw shoes
     var shoeScaleX = 128 / shoes.naturalHeight * shoes.naturalWidth;
     var shoeScaleY = 128;
     var shoeStartX = 200 + 96 / 2 - shoeScaleX / 2;
     var shoeStartY = 510;
     ctx.drawImage(shoes, shoeStartX, shoeStartY, shoeScaleX, shoeScaleY);
-    
+
     // draw weapon
     var weaponScaleX = 190 / weapon.naturalHeight * weapon.naturalWidth;
     var weaponScaleY = 190;

@@ -10,10 +10,17 @@ class Catalog extends Application
 	 {
 		 parent::__construct();
 	 }
+
 	public function index()
 	{
+
+
+		// $entity = application\entities\SetTest();
+		// $set_entity->save($accessories);
+
 		//get all accessories
-		$accessories = $this->accessories->all();
+
+	  $accessories = $this->accessories->all();
 		//get all categories
 		$categories = $this->categories->all();
 		//inject model into controller
