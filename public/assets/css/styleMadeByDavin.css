@@ -12,6 +12,11 @@ html {
 }
 
 /* Removed common mouse, link and list styles and set them to be constant instead */
+#setDropdownAllAccessories {
+  color: black;
+  width: 40%;
+}
+
 a, select {
     cursor: inherit;
     text-decoration: none;
@@ -87,7 +92,7 @@ th {
      margin-bottom: 1em;
  }
  #content {
-    background: 
+    background:
     linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../images/contentBackgroundTexture.jpg); /* Causes a tinted background effect */
     color: white;
     background-size: cover; /* TO make the background image fill the div */
