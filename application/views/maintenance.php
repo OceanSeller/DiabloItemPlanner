@@ -32,7 +32,7 @@
             <form action="/maintenance/updateAccessory/{id}" method="post">
                 <tr class="item_row">
                     <td><input type="text" value="{name}" name="name" id="{name}" /></td>
-                    <td><input type="text" value="{naterials}" name="naterials" id="{naterials}" /></td>
+                    <td><input type="text" value="{materials}" name="materials" id="{materials}" /></td>
                     <td><input type="text" value="{weight}" name="weight" id="{weight}" /></td>
                     <td><input type="text" value="{damage}" name="damage" id="{damage}" /></td>
                     <td><input type="text" value="{protection}" name="protection" id="{protection}" /></td>
