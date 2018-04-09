@@ -10,4 +10,8 @@ class Categories extends Entity
     $this->name = $name;
     return $this;
   }
+    public function getName()
+  {
+    return $this;
+  }
 }
