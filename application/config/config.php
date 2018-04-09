@@ -1,12 +1,21 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-//Choices availble for selection in the menubar
+//Choices available for selection in the menubar
 $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Home', 'link' => '/'),
         array('name' => 'Catalog', 'link' => '/catalog'),
         array('name' => 'Info', 'link' => '/info'),
+        array('name' => 'Custom', 'link' => '/custom'),
+        )
+    );
+$config['admin_menu_choices'] = array(
+    'menudata' => array(
+        array('name' => 'Home', 'link' => '/'),
+        array('name' => 'Catalog', 'link' => '/catalog'),
+        array('name' => 'Info', 'link' => '/info'),
+        array('name' => 'Maintenance', 'link' => '/maintenance')
         )
     );
 
@@ -379,7 +388,7 @@ $config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = '/tmp';
+$config['sess_save_path'] = '../tmp';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;

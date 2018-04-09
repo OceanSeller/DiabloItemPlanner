@@ -1,14 +1,15 @@
 <!-- The main view of the diablo inventory will be displayed in this page -->
-<div id="body">
-    <div id="selectSection">
-        <select id="setDropdown">
-            <option>Choose a set</option>
-            {sets}
-            <option value="{id}">{name}</option>
-            {/sets}
-        </select>
-        <div onclick="loadSet();" class="customButton">Show Set</div>
+<div id="custom-body">
+    <label for="set">Acessories
+    <div class="dropdown">
+      <select id="setDropdownAllAccessories">
+        {accessories}
+          <option value="{id}">{name}</option>
+        {/accessories}
+      </select>
+      <div onclick="addToNewSet();" class="customButton">Save Set</div>
     </div>
+    </label>
     <div>
         <canvas id="inventoryCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
     </div>
@@ -19,6 +20,5 @@
         <img id="shoes" src="{shoes}" />
         <img id="weapon" src="{weapon}" />
     </div>
-
-    <script src="/assets/js/setviewer.js"></script>
+    <script src="/assets/js/customviewer.js"></script>
 </div>
