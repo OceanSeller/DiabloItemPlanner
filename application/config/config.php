@@ -7,6 +7,7 @@ $config['menu_choices'] = array(
         array('name' => 'Home', 'link' => '/'),
         array('name' => 'Catalog', 'link' => '/catalog'),
         array('name' => 'Info', 'link' => '/info'),
+        array('name' => 'Custom', 'link' => '/custom'),
         )
     );
 $config['admin_menu_choices'] = array(

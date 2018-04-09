@@ -95,3 +95,16 @@ function loadSet()
         location.href = "/set/" + id;
     }
 }
+
+// load all items into a dropdown
+function loadItem()
+{
+    var setDropdown = document.getElementById("setDropdownAllAccessories");
+    // don't allow redirect if no valid id is selected
+    if (setDropdown.options[setDropdown.selectedIndex].hasAttribute('value'))
+    {
+        var id = setDropdown.options[setDropdown.selectedIndex].value;
+        location.href = "/accessories/" + id;
+        console.log("id: " + id);
+    }
+}
