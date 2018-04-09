@@ -1,6 +1,6 @@
 id,name,category,naterials,weight,imagepath,damage,protection
-1,AxeofWraith,0,Wooden,10,/assets/images/axe_of_wraith.png,30,90
-2,BowofDarkness,0,Copper,20,/assets/images/bow_of_darkness.png,20,23
+1,AxeofWraith,0,Wooden,10,/assets/images/axe_of_wraith.png,30,80
+2,BowofDarkness,0,Copper,20,/assets/images/bow_of_darkness.png,20,20
 3,SwordPlusOneBurning,0,Titanium,30,/assets/images/sword_plus_one.png,100,20
 4,StaffofHerding,0,Bronze,40,/assets/images/Staff_of_Herding.png,39,20
 5,ArmorofWraith,1,Wooden,10,/assets/images/armor_of_wraith.png,20,90
